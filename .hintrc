@@ -1,0 +1,42 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "meta-viewport": "off",
+    "axe/parsing": [
+      "default",
+      {
+        "duplicate-id-aria": "off",
+        "duplicate-id-active": "off"
+      }
+    ],
+    "axe/forms": [
+      "default",
+      {
+        "select-name": "off"
+      }
+    ],
+    "no-inline-styles": "off",
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "-webkit-text-size-adjust",
+          "print-color-adjust",
+          "user-select",
+          "mask-image",
+          "mask-size",
+          "mask-position",
+          "text-align: -webkit-match-parent",
+          "user-select: all",
+          "-webkit-tap-highlight-color",
+          "text-decoration-skip-ink",
+          "text-underline-offset",
+          "-webkit-overflow-scrolling",
+          "overflow-anchor"
+        ]
+      }
+    ]
+  }
+}

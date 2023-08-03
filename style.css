@@ -1,0 +1,17 @@
+#leftDiv{
+    background-color: var(--bg-color);
+  }
+  #splitDiv {
+    flex: 0 0 auto;
+    width: 2px;
+    background: url(https://raw.githubusercontent.com/RickStrahl/jquery-resizable/master/assets/vsizegrip.png)
+      center center no-repeat #535353;
+    min-height: 200px;
+    cursor: col-resize;
+  }
+  i{
+    color: #ffffff;
+  }
+  .height{
+    height: 90vh;
+  }
